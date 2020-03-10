@@ -1,0 +1,179 @@
+body{
+	background-color: red;
+	margin-top: 0px;
+}
+@media screen and (min-width: 500px) {
+  body {
+    background-color: #bbb;
+    margin-top: 0px;
+  }
+}
+.header{
+	background-color: skyblue;
+	width: 100%;
+	position: fixed;
+}
+.header img{
+	width: 150px;
+	height: 50px;
+	border-bottom: 1px dotted black;
+}
+.header h1{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+
+	
+}
+li{
+	display: inline;
+
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.container{
+	display: flex;
+	padding-top: 110px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.box1{
+
+	position: fixed;
+	border:1px ;
+	margin-top: 20px;
+	float: left;	
+	padding: 10px;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	width: 25%;
+	text-align: justify;
+
+}
+.box2{
+	border:1px ;
+	margin-left: 390px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #bbb;
+	box-shadow: 0px 0px 3px 3px grey;
+	width: 40%;
+	text-align: justify;
+}
+.box3{
+	top: 30px;
+	border:1px ;
+	position: fixed;
+	float: right;
+	padding: 10px;
+	margin-left: 980px;
+	margin-top: 100px;
+	overflow: visible;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	width: 25%;
+	text-align: justify;
+
+
+}
+ #scroll{
+	border:1px solid black;
+	border-radius: 30px 0px 0px 30px;
+	margin: 0px;
+	overflow-y: scroll;
+	  width: 90%;
+  height: 50px;
+}
+.box3 p{
+	
+	 text-align:center;
+
+}
+ .box3 ul{
+	list-style-type: circle ;
+	padding: 20px;
+	
+}
+.box3 li{
+	display: list-item;
+}
+.container2{
+	position: absolute;
+	 
+	border:1px solid red;
+	width: 50%;
+	margin-top: 130px;
+	margin-left: 333px;
+	background-color: white;
+	
+}
+
+.container2 h2{
+	text-align: center;
+}
+.container2 p{
+	padding-left: 30px;
+
+}
+.parent{
+
+	display: flex;
+}
+.oops{
+
+	background-color: #ccc;
+	width:250px;
+	margin-left: 30px;
+	box-sizing: border-box;
+}
+.oops p{
+	text-align: center;
+	padding: 15px;
+}
+.redbox{
+	background-color: red;
+	border:1px solid green;
+	width: 50%;
+	height: 200px;
+	margin-left: 5px;
+	margin-top: 10px;
+
+}
+.boxabout{
+  position: absolute;
+  margin-top: 130px;
+  margin-left:300px;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	width: 50%;
+
+	text-align: center;
+
+}
+.flex-container{
+	padding-top: 170px;
+	margin-left: 220px;
+	
+}
+.flex-container div{
+	display: flex;
+	display: inline-flex;
+	background-color: #ccc;
+	width:200px;
+	height: 150px;
+	box-sizing: border-box;
+	
+
+}
